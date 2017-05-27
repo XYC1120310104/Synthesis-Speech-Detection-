@@ -1,0 +1,22 @@
+MODGDF 一定要降采样 MFCC(60) IMFCC(60)
+
+SVM+MODGDF(static+delta+delta2)+vad+降采样(2)+80帧一段+50ms一帧+20ms帧移
+acc=93.4932 precision=95 recall=83.5165 F-measure=0.8889
+
+GMM(Ngauss=10)+MODGDF(static+delta+delta2)+vad+降采样(2)+80帧一段+50ms一帧+20ms帧移
+acc=97.2603 precision=98.8235 recall=92.3077 F-measure=0.9545
+
+SVM+MFCC(static+delta+delta2)+60帧一段+50ms一帧+20ms帧移
+acc=91.3793  Precision=96.2791 Recall=76.9517 F-measure=0.8554
+acc=97.1675  Precision=97.3077 Recall=94.0520 F-measure=0.9565 (MFCC+trick eps)
+
+GMM(Ngauss=2)+MFCC(static+delta+delta2)+60帧一段+50ms一帧+20ms帧移
+acc=99.1379 Precision=99.2481 Recall=98.1413 F-measure=0.9869
+
+
+SVM+IMFCC(static+delta+delta2)+(60帧一段)+50ms一帧+20ms帧移;
+acc=92.9803 Precision=100 Recall=78.8104
+acc=98.5222 Precision=100 Recall=95.5390 F-measure=0.9772 (IMFCC+trick eps)
+
+GMM(Ngauss=2)+IMFCC(static+delta+delta2)+(60帧一段)+50ms一帧+20ms帧移;
+acc=99.8768 Precision=100 Recall=99.6283 F-measure=0.9981

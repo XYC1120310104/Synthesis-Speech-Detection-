@@ -1,0 +1,161 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: AudioClassify - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"Release/AudioClassify.res" /d "NDEBUG" /d "_AFXDLL" "D:\MyProj\AudioClassify\AudioClassify.rc"" 
+Creating temporary file "C:\DOCUME~1\ZHENGG~1\LOCALS~1\Temp\RSP39A.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_WINDLL" /D "_AFXDLL" /D "_MBCS" /D "_USRDLL" /Fp"Release/AudioClassify.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"D:\MyProj\AudioClassify\AudioClassify.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ZHENGG~1\LOCALS~1\Temp\RSP39A.tmp" 
+Creating temporary file "C:\DOCUME~1\ZHENGG~1\LOCALS~1\Temp\RSP39B.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_WINDLL" /D "_AFXDLL" /D "_MBCS" /D "_USRDLL" /Fp"Release/AudioClassify.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"D:\MyProj\AudioClassify\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ZHENGG~1\LOCALS~1\Temp\RSP39B.tmp" 
+Creating temporary file "C:\DOCUME~1\ZHENGG~1\LOCALS~1\Temp\RSP39C.tmp" with contents
+[
+/nologo /subsystem:windows /dll /incremental:no /pdb:"Release/AudioClassify.pdb" /machine:I386 /def:".\AudioClassify.def" /out:"Release/AudioClassify.dll" /implib:"Release/AudioClassify.lib" 
+.\Release\AudioClassify.obj
+.\Release\StdAfx.obj
+.\Release\AudioClassify.res
+]
+Creating command line "link.exe @C:\DOCUME~1\ZHENGG~1\LOCALS~1\Temp\RSP39C.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+AudioClassify.cpp
+D:\MyProj\AudioClassify\AudioClassify.cpp(293) : warning C4244: '=' : conversion from 'double' to 'short', possible loss of data
+D:\MyProj\AudioClassify\AudioClassify.cpp(433) : warning C4154: deletion of an array expression; conversion to pointer supplied
+Linking...
+   Creating library Release/AudioClassify.lib and object Release/AudioClassify.exp
+
+
+
+<h3>Results</h3>
+AudioClassify.dll - 0 error(s), 2 warning(s)
+<h3>
+--------------------Configuration: AudioClassify - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"Debug/AudioClassify.res" /d "_DEBUG" /d "_AFXDLL" "D:\MyProj\AudioClassify\AudioClassify.rc"" 
+Creating temporary file "C:\DOCUME~1\ZHENGG~1\LOCALS~1\Temp\RSP3A0.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_WINDLL" /D "_AFXDLL" /D "_MBCS" /D "_USRDLL" /Fp"Debug/AudioClassify.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\MyProj\AudioClassify\AudioClassify.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ZHENGG~1\LOCALS~1\Temp\RSP3A0.tmp" 
+Creating temporary file "C:\DOCUME~1\ZHENGG~1\LOCALS~1\Temp\RSP3A1.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_WINDLL" /D "_AFXDLL" /D "_MBCS" /D "_USRDLL" /Fp"Debug/AudioClassify.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\MyProj\AudioClassify\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ZHENGG~1\LOCALS~1\Temp\RSP3A1.tmp" 
+Creating temporary file "C:\DOCUME~1\ZHENGG~1\LOCALS~1\Temp\RSP3A2.tmp" with contents
+[
+/nologo /subsystem:windows /dll /incremental:yes /pdb:"Debug/AudioClassify.pdb" /debug /machine:I386 /def:".\AudioClassify.def" /out:"Debug/AudioClassify.dll" /implib:"Debug/AudioClassify.lib" /pdbtype:sept 
+.\Debug\AudioClassify.obj
+.\Debug\StdAfx.obj
+.\Debug\AudioClassify.res
+]
+Creating command line "link.exe @C:\DOCUME~1\ZHENGG~1\LOCALS~1\Temp\RSP3A2.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+AudioClassify.cpp
+D:\MyProj\AudioClassify\AudioClassify.cpp(293) : warning C4244: '=' : conversion from 'double' to 'short', possible loss of data
+D:\MyProj\AudioClassify\AudioClassify.cpp(433) : warning C4154: deletion of an array expression; conversion to pointer supplied
+Linking...
+   Creating library Debug/AudioClassify.lib and object Debug/AudioClassify.exp
+
+
+
+<h3>Results</h3>
+AudioClassify.dll - 0 error(s), 2 warning(s)
+<h3>
+--------------------Configuration: Test - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\ZHENGG~1\LOCALS~1\Temp\RSP3A6.tmp" with contents
+[
+/nologo /ML /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_CONSOLE" /D "_MBCS" /Fp"Release/Test.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"D:\MyProj\AudioClassify\Test\Test.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ZHENGG~1\LOCALS~1\Temp\RSP3A6.tmp" 
+Creating temporary file "C:\DOCUME~1\ZHENGG~1\LOCALS~1\Temp\RSP3A7.tmp" with contents
+[
+/nologo /ML /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_CONSOLE" /D "_MBCS" /Fp"Release/Test.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"D:\MyProj\AudioClassify\Test\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ZHENGG~1\LOCALS~1\Temp\RSP3A7.tmp" 
+Creating temporary file "C:\DOCUME~1\ZHENGG~1\LOCALS~1\Temp\RSP3A8.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:no /pdb:"Release/Test.pdb" /machine:I386 /out:"Release/Test.exe" 
+.\Release\StdAfx.obj
+.\Release\Test.obj
+]
+Creating command line "link.exe @C:\DOCUME~1\ZHENGG~1\LOCALS~1\Temp\RSP3A8.tmp"
+<h3>Output Window</h3>
+Compiling...
+StdAfx.cpp
+Compiling...
+Test.cpp
+Linking...
+Test.obj : error LNK2001: unresolved external symbol _CalSegFeatures@12
+Release/Test.exe : fatal error LNK1120: 1 unresolved externals
+Error executing link.exe.
+
+
+
+<h3>Results</h3>
+Test.exe - 2 error(s), 0 warning(s)
+<h3>
+--------------------Configuration: Test - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\ZHENGG~1\LOCALS~1\Temp\RSP3AA.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /Fp"Debug/Test.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\MyProj\AudioClassify\Test\Test.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ZHENGG~1\LOCALS~1\Temp\RSP3AA.tmp" 
+Creating temporary file "C:\DOCUME~1\ZHENGG~1\LOCALS~1\Temp\RSP3AB.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /Fp"Debug/Test.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\MyProj\AudioClassify\Test\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ZHENGG~1\LOCALS~1\Temp\RSP3AB.tmp" 
+Creating temporary file "C:\DOCUME~1\ZHENGG~1\LOCALS~1\Temp\RSP3AC.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:yes /pdb:"Debug/Test.pdb" /debug /machine:I386 /out:"Debug/Test.exe" /pdbtype:sept 
+.\Debug\StdAfx.obj
+.\Debug\Test.obj
+]
+Creating command line "link.exe @C:\DOCUME~1\ZHENGG~1\LOCALS~1\Temp\RSP3AC.tmp"
+<h3>Output Window</h3>
+Compiling...
+StdAfx.cpp
+Compiling...
+Test.cpp
+Linking...
+Test.obj : error LNK2001: unresolved external symbol _CalSegFeatures@12
+Debug/Test.exe : fatal error LNK1120: 1 unresolved externals
+Error executing link.exe.
+
+
+
+<h3>Results</h3>
+Test.exe - 2 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

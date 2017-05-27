@@ -1,0 +1,11 @@
+; AudioClassify.def : Declares the module parameters for the DLL.
+
+LIBRARY      "AudioClassify"
+DESCRIPTION  'AudioClassify Windows Dynamic Link Library'
+
+EXPORTS
+    ; Explicit exports can go here
+
+    IsPureMusicSeg;
+    CalSegFeatures;
+	ContainPureMusic;

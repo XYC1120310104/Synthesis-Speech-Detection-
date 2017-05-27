@@ -1,0 +1,106 @@
+﻿生成启动时间为 10/14/2016 8:13:07 PM。
+     1>项目“D:\研究生工作\样例提取20160420\AudioClassify 20161013\AudioClassify\AudioClassify.vcxproj”在节点 3 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“.\Debug\AudioClassify.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         所有输出均为最新。
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D _VC80_UPGRADE=0x0600 /D _WINDLL /D _MBCS /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp".\Debug/AudioClassify.pch" /Fo".\Debug/" /Fd".\Debug/vc100.pdb" /Gd /TP /analyze- /errorReport:prompt AudioClassify.cpp MFCC.cpp
+         AudioClassify.cpp
+     1>d:\研究生工作\样例提取20160420\audioclassify 20161013\audioclassify\audioclassify.cpp(216): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>d:\研究生工作\样例提取20160420\audioclassify 20161013\audioclassify\audioclassify.cpp(217): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>d:\研究生工作\样例提取20160420\audioclassify 20161013\audioclassify\audioclassify.cpp(218): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>d:\研究生工作\样例提取20160420\audioclassify 20161013\audioclassify\audioclassify.cpp(248): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>d:\研究生工作\样例提取20160420\audioclassify 20161013\audioclassify\audioclassify.cpp(293): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(234) : 参见“fopen”的声明
+     1>d:\研究生工作\样例提取20160420\audioclassify 20161013\audioclassify\audioclassify.cpp(330): warning C4018: “<”: 有符号/无符号不匹配
+     1>d:\研究生工作\样例提取20160420\audioclassify 20161013\audioclassify\audioclassify.cpp(340): warning C4018: “<”: 有符号/无符号不匹配
+     1>d:\研究生工作\样例提取20160420\audioclassify 20161013\audioclassify\audioclassify.cpp(353): warning C4018: “<”: 有符号/无符号不匹配
+     1>d:\研究生工作\样例提取20160420\audioclassify 20161013\audioclassify\audioclassify.cpp(372): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(234) : 参见“fopen”的声明
+     1>d:\研究生工作\样例提取20160420\audioclassify 20161013\audioclassify\audioclassify.cpp(377): warning C4018: “<”: 有符号/无符号不匹配
+         正在生成代码...
+         正在编译...
+         MFCC.cpp
+     1>d:\研究生工作\样例提取20160420\audioclassify 20161013\audioclassify\mfcc.cpp(149): warning C4018: “<”: 有符号/无符号不匹配
+     1>d:\研究生工作\样例提取20160420\audioclassify 20161013\audioclassify\mfcc.cpp(152): warning C4018: “<”: 有符号/无符号不匹配
+     1>d:\研究生工作\样例提取20160420\audioclassify 20161013\audioclassify\mfcc.cpp(171): warning C4018: “<”: 有符号/无符号不匹配
+     1>d:\研究生工作\样例提取20160420\audioclassify 20161013\audioclassify\mfcc.cpp(177): warning C4018: “<”: 有符号/无符号不匹配
+     1>d:\研究生工作\样例提取20160420\audioclassify 20161013\audioclassify\mfcc.cpp(180): warning C4018: “<”: 有符号/无符号不匹配
+     1>d:\研究生工作\样例提取20160420\audioclassify 20161013\audioclassify\mfcc.cpp(205): warning C4018: “<”: 有符号/无符号不匹配
+     1>d:\研究生工作\样例提取20160420\audioclassify 20161013\audioclassify\mfcc.cpp(212): warning C4244: “参数”: 从“double”转换到“const float”，可能丢失数据
+     1>d:\研究生工作\样例提取20160420\audioclassify 20161013\audioclassify\mfcc.cpp(260): warning C4018: “<”: 有符号/无符号不匹配
+     1>d:\研究生工作\样例提取20160420\audioclassify 20161013\audioclassify\mfcc.cpp(264): warning C4305: “参数”: 从“double”到“const float”截断
+     1>d:\研究生工作\样例提取20160420\audioclassify 20161013\audioclassify\mfcc.cpp(279): warning C4018: “<”: 有符号/无符号不匹配
+     1>d:\研究生工作\样例提取20160420\audioclassify 20161013\audioclassify\mfcc.cpp(280): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>d:\研究生工作\样例提取20160420\audioclassify 20161013\audioclassify\mfcc.cpp(282): warning C4018: “<”: 有符号/无符号不匹配
+     1>d:\研究生工作\样例提取20160420\audioclassify 20161013\audioclassify\mfcc.cpp(283): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>d:\研究生工作\样例提取20160420\audioclassify 20161013\audioclassify\eigen\src\core\functors.h(54): warning C4800: “int”: 将值强制为布尔值“true”或“false”(性能警告)
+                 d:\研究生工作\样例提取20160420\audioclassify 20161013\audioclassify\eigen\src\core\functors.h(54): 编译类 模板 成员函数“const bool Eigen::internal::scalar_product_op<LhsScalar,RhsScalar>::operator ()(const LhsScalar &,const RhsScalar &) const”时
+                 with
+                 [
+                     LhsScalar=bool,
+                     RhsScalar=Eigen::internal::result_of<Eigen::internal::scalar_cmp_op<float,cmp_LT> (float,float)>::type
+                 ]
+                 d:\研究生工作\样例提取20160420\audioclassify 20161013\audioclassify\eigen\src\core\util\meta.h(161): 参见对正在编译的类 模板 实例化“Eigen::internal::scalar_product_op<LhsScalar,RhsScalar>”的引用
+                 with
+                 [
+                     LhsScalar=bool,
+                     RhsScalar=Eigen::internal::result_of<Eigen::internal::scalar_cmp_op<float,cmp_LT> (float,float)>::type
+                 ]
+                 d:\研究生工作\样例提取20160420\audioclassify 20161013\audioclassify\eigen\src\core\cwisebinaryop.h(58): 参见对正在编译的类 模板 实例化“Eigen::internal::result_of<T>”的引用
+                 with
+                 [
+                     T=Eigen::internal::scalar_product_op<bool,Eigen::internal::result_of<Eigen::internal::scalar_cmp_op<float,cmp_LT> (float,float)>::type> (bool,bool)
+                 ]
+                 d:\研究生工作\样例提取20160420\audioclassify 20161013\audioclassify\eigen\src\core\cwisebinaryop.h(165): 参见对正在编译的类 模板 实例化“Eigen::internal::traits<T>”的引用
+                 with
+                 [
+                     T=Eigen::CwiseBinaryOp<Eigen::internal::scalar_product_op<bool,Eigen::internal::result_of<Eigen::internal::scalar_cmp_op<float,cmp_LT> (float,float)>::type>,const Eigen::CwiseBinaryOp<Eigen::internal::scalar_cmp_op<float,cmp_LT>,const Eigen::CwiseBinaryOp<Eigen::internal::scalar_product_op<float,float>,const Eigen::ArrayWrapper<Eigen::Matrix<float,-1,1>>,const Eigen::ArrayWrapper<Eigen::Matrix<float,-1,1>>>,const Eigen::CwiseNullaryOp<Eigen::internal::scalar_constant_op<float>,Eigen::Array<float,-1,1>>>,const Eigen::CwiseBinaryOp<Eigen::internal::scalar_cmp_op<float,cmp_LT>,const Eigen::CwiseNullaryOp<Eigen::internal::scalar_constant_op<float>,Eigen::Array<float,-1,1>>,const Eigen::ArrayWrapper<const Eigen::CwiseBinaryOp<Eigen::internal::scalar_difference_op<float>,const Eigen::Matrix<float,-1,1>,const Eigen::Matrix<float,-1,1>>>>>
+                 ]
+                 d:\研究生工作\样例提取20160420\audioclassify 20161013\audioclassify\eigen\src\core\cwisebinaryop.h(112): 参见对正在编译的类 模板 实例化“Eigen::CwiseBinaryOpImpl<BinaryOp,Lhs,Rhs,StorageKind>”的引用
+                 with
+                 [
+                     BinaryOp=Eigen::internal::scalar_product_op<bool,Eigen::internal::result_of<Eigen::internal::scalar_cmp_op<float,cmp_LT> (float,float)>::type>,
+                     Lhs=const Eigen::CwiseBinaryOp<Eigen::internal::scalar_cmp_op<float,cmp_LT>,const Eigen::CwiseBinaryOp<Eigen::internal::scalar_product_op<float,float>,const Eigen::ArrayWrapper<Eigen::Matrix<float,-1,1>>,const Eigen::ArrayWrapper<Eigen::Matrix<float,-1,1>>>,const Eigen::CwiseNullaryOp<Eigen::internal::scalar_constant_op<float>,Eigen::Array<float,-1,1>>>,
+                     Rhs=const Eigen::CwiseBinaryOp<Eigen::internal::scalar_cmp_op<float,cmp_LT>,const Eigen::CwiseNullaryOp<Eigen::internal::scalar_constant_op<float>,Eigen::Array<float,-1,1>>,const Eigen::ArrayWrapper<const Eigen::CwiseBinaryOp<Eigen::internal::scalar_difference_op<float>,const Eigen::Matrix<float,-1,1>,const Eigen::Matrix<float,-1,1>>>>,
+                     StorageKind=Eigen::Dense
+                 ]
+                 d:\研究生工作\样例提取20160420\audioclassify 20161013\audioclassify\mfcc.cpp(264): 参见对正在编译的类 模板 实例化“Eigen::CwiseBinaryOp<BinaryOp,Lhs,Rhs>”的引用
+                 with
+                 [
+                     BinaryOp=Eigen::internal::scalar_product_op<bool,Eigen::internal::result_of<Eigen::internal::scalar_cmp_op<float,cmp_LT> (float,float)>::type>,
+                     Lhs=const Eigen::CwiseBinaryOp<Eigen::internal::scalar_cmp_op<float,cmp_LT>,const Eigen::CwiseBinaryOp<Eigen::internal::scalar_product_op<float,float>,const Eigen::ArrayWrapper<Eigen::Matrix<float,-1,1>>,const Eigen::ArrayWrapper<Eigen::Matrix<float,-1,1>>>,const Eigen::CwiseNullaryOp<Eigen::internal::scalar_constant_op<float>,Eigen::Array<float,-1,1>>>,
+                     Rhs=const Eigen::CwiseBinaryOp<Eigen::internal::scalar_cmp_op<float,cmp_LT>,const Eigen::CwiseNullaryOp<Eigen::internal::scalar_constant_op<float>,Eigen::Array<float,-1,1>>,const Eigen::ArrayWrapper<const Eigen::CwiseBinaryOp<Eigen::internal::scalar_difference_op<float>,const Eigen::Matrix<float,-1,1>,const Eigen::Matrix<float,-1,1>>>>
+                 ]
+         正在生成代码...
+       ResourceCompile:
+         所有输出均为最新。
+       ManifestResourceCompile:
+         所有输出均为最新。
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:".\Debug/AudioClassify.dll" /INCREMENTAL /NOLOGO /DEF:".\AudioClassify.def" /MANIFEST /ManifestFile:".\Debug\AudioClassify.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:".\Debug/AudioClassify.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE:NO /IMPLIB:".\Debug/AudioClassify.lib" /MACHINE:X86 /DLL .\Debug\AudioClassify.res
+         .\Debug\AudioClassify.dll.embed.manifest.res
+         .\Debug/AudioClassify.obj
+         .\Debug/daxpy.obj
+         .\Debug/ddot.obj
+         .\Debug/dnrm2.obj
+         .\Debug/dscal.obj
+         .\Debug/linear.obj
+         .\Debug/MFCC.obj
+         .\Debug/predict.obj
+         .\Debug/StdAfx.obj
+         .\Debug/tron.obj
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:".\Debug\AudioClassify.dll.embed.manifest" /manifest .\Debug\AudioClassify.dll.intermediate.manifest "C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\Include\Manifest\dpiaware.manifest"
+         所有输出均为最新。
+       LinkEmbedManifest:
+         所有输出均为最新。
+         AudioClassify.vcxproj -> D:\研究生工作\样例提取20160420\AudioClassify 20161013\AudioClassify\.\Debug\AudioClassify.dll
+       FinalizeBuildStatus:
+         正在删除文件“.\Debug\AudioClassify.unsuccessfulbuild”。
+         正在对“.\Debug\AudioClassify.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“D:\研究生工作\样例提取20160420\AudioClassify 20161013\AudioClassify\AudioClassify.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:06.97
